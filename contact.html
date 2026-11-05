@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact ENOA Technical Services Limited | Request a Quote</title>
+  <meta name="description" content="Contact ENOA Technical Services Limited for solar energy, air conditioning, CCTV, internet installation and maintenance services. Request a quotation online.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="images/enoa-logo.png" alt="ENOA Technical Services logo" width="44" height="44">
+      <span>ENOA TECHNICAL<br><small>SERVICES LTD.</small></span>
+    </a>
+
+    <!-- Mobile menu button -->
+<button class="menu-toggle" aria-label="Open navigation"
+        aria-expanded="false" aria-controls="main-nav">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+<!-- Background overlay -->
+<div class="nav-overlay"></div>
+
+<!-- Navigation sidebar -->
+<nav id="main-nav" class="main-nav" aria-label="Main">
+
+  <button class="menu-close" aria-label="Close navigation">
+    &times;
+  </button>
+
+  <a href="index.html">Home</a>
+  <a href="index.html#about">About</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact Us</a>
+  <a class="btn" href="contact.html">Get a Quote</a>
+
+</nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="contact-hero" aria-labelledby="contact-heading">
+      <div class="contact-hero__overlay" aria-hidden="true"></div>
+
+      <div class="contact-hero__content">
+        <p class="kicker">Contact Us</p>
+        <h1 id="contact-heading">
+          Let’s discuss your <span>next project</span>
+        </h1>
+        <p>
+          Tell us about your solar, air-conditioning, CCTV, internet or maintenance
+          requirements. Our team will review your details and provide a tailored quotation.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-outline" href="#request-quote">Request a Quote</a>
+          <a class="btn btn-outline" href="#contact-details">Contact Details</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-details" id="contact-details" aria-labelledby="contact-details-heading">
+      <div class="contact-details__intro">
+        <p class="section-label">Get in touch</p>
+        <h2 id="contact-details-heading">Contact information</h2>
+        <p>
+          Reach ENOA Technical Services Limited using any of the channels below, or complete
+          the quotation request form and we will respond using your preferred contact method.
+        </p>
+      </div>
+
+      <div class="contact-cards">
+        <article class="contact-card">
+          <h3>Phone</h3>
+          <p>
+            <a href="tel:+2340000000000">+234 000 000 0000</a>
+          </p>
+          <p class="contact-card__note">Office hours: Monday to Friday, 8:00 am – 5:00 pm</p>
+        </article>
+
+        <article class="contact-card">
+          <h3>WhatsApp</h3>
+          <p>
+            <a href="https://wa.me/2340000000000" target="_blank" rel="noopener noreferrer">
+              Chat with us on WhatsApp
+            </a>
+          </p>
+          <p class="contact-card__note">Send project photos, site details or documents.</p>
+        </article>
+
+        <article class="contact-card">
+          <h3>Email</h3>
+          <p>
+            <a href="#">info@xxxx.com</a>
+          </p>
+          <p class="contact-card__note">For enquiries, quotations and partnership requests.</p>
+        </article>
+
+        <article class="contact-card">
+          <h3>Office Address</h3>
+          <address>
+            ENOA Technical Services Limited<br>
+            [Office address to be confirmed]<br>
+            Lagos, Nigeria
+          </address>
+        </article>
+      </div>
+    </section>
+
+    <section class="section quote-section" id="request-quote" aria-labelledby="quote-heading">
+      <div class="quote-section__intro">
+        <p class="section-label">Request a quotation</p>
+        <h2 id="quote-heading">Tell us about your project</h2>
+        <p>
+          Complete the form below with as much detail as possible. Fields marked with an
+          asterisk (<span aria-hidden="true">*</span><span class="visually-hidden">required</span>)
+          are required.
+        </p>
+      </div>
+
+      <form class="quote-form" id="quote-form" action="#" method="post" novalidate>
+        <p class="form-notice">
+          <strong>Note:</strong> Online submission is not yet active. This form will be connected
+          to ENOA’s email or enquiry system at a later stage.
+        </p>
+
+        <fieldset class="form-fieldset">
+          <legend>Your details</legend>
+
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="full-name">Full name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="full-name"
+                name="full_name"
+                autocomplete="name"
+                required
+                aria-required="true">
+            </div>
+
+            <div class="form-field">
+              <label for="phone">Phone number <span aria-hidden="true">*</span></label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                autocomplete="tel"
+                inputmode="tel"
+                placeholder="e.g. +234 800 000 0000"
+                required
+                aria-required="true">
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email address <span class="optional">(optional)</span></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                inputmode="email">
+            </div>
+
+            <div class="form-field">
+              <label for="customer-type">Customer type</label>
+              <select id="customer-type" name="customer_type">
+                <option value="">Select an option</option>
+                <option value="homeowner-individual">Homeowner / Individual</option>
+                <option value="business">Business</option>
+                <option value="organisation">Organisation</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="form-fieldset">
+          <legend>Project details</legend>
+
+          <div class="form-grid">
+            <div class="form-field form-field--full">
+              <label for="service-required">Service required</label>
+              <select id="service-required" name="service_required">
+                <option value="">Select a service</option>
+                <option value="residential-solar">Residential Solar</option>
+                <option value="commercial-solar">Commercial Solar</option>
+                <option value="solar-streetlights">Solar Streetlights</option>
+                <option value="mounting-structures">Mounting Structures</option>
+                <option value="air-conditioning">Air Conditioning</option>
+                <option value="cctv">CCTV</option>
+                <option value="remote-monitoring-maintenance">Remote Monitoring and Maintenance</option>
+                <option value="internet-installation">Internet Installation</option>
+                <option value="other-not-sure">Other / Not Sure</option>
+              </select>
+              <p class="field-hint" id="service-hint">
+                If you arrived from a service page, the relevant service may already be selected.
+              </p>
+            </div>
+
+            <div class="form-field form-field--full">
+              <label for="project-location">Project location <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="project-location"
+                name="project_location"
+                autocomplete="address-level2"
+                placeholder="e.g. Lekki, Lagos"
+                required
+                aria-required="true">
+            </div>
+
+            <div class="form-field form-field--full">
+              <label for="project-description">Project description <span aria-hidden="true">*</span></label>
+              <textarea
+                id="project-description"
+                name="project_description"
+                rows="6"
+                required
+                aria-required="true"
+                placeholder="Briefly describe your project, including your requirements, property type, preferred timeline and any other useful details."></textarea>
+            </div>
+
+            <fieldset class="form-field form-field--full radio-fieldset">
+              <legend>Preferred contact method</legend>
+
+              <div class="radio-options">
+                <label class="radio-option">
+                  <input type="radio" name="preferred_contact_method" value="phone">
+                  <span>Phone</span>
+                </label>
+
+                <label class="radio-option">
+                  <input type="radio" name="preferred_contact_method" value="whatsapp">
+                  <span>WhatsApp</span>
+                </label>
+
+                <label class="radio-option">
+                  <input type="radio" name="preferred_contact_method" value="email">
+                  <span>Email</span>
+                </label>
+              </div>
+            </fieldset>
+          </div>
+        </fieldset>
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Submit Quote Request</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-main">
+
+    <div class="footer-brand">
+      <a class="brand" href="index.html">
+        <img
+          src="images/enoa-logo.png"
+          alt="ENOA Technical Services logo"
+          width="44"
+          height="44"
+        >
+        <span>
+          ENOA TECHNICAL<br>
+          <small>SERVICES LTD.</small>
+        </span>
+      </a>
+
+      <p class="footer-tagline">
+        Reliable solar, CCTV, air-conditioning and technical
+        support solutions for homes and businesses.
+      </p>
+
+      <a class="btn footer-cta" href="contact.html">Get a Quote</a>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer">
+      <div class="footer-column">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="services.html">Residential Solar</a></li>
+          <li><a href="services.html">Commercial Solar</a></li>
+          <li><a href="services.html">CCTV Installation</a></li>
+          <li><a href="services.html">Air Conditioning</a></li>
+          <li><a href="services.html">Maintenance</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="index.html#about">About ENOA</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="index.html#testimonials">Client Feedback</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Contact</h3>
+        <address>
+          C59A, C59, Olubadan Avenue,<br>
+          Royal Gardens Estate,<br>
+          Ajah, Lagos
+        </address>
+
+        <p>
+          <a href="mailto:admin@YOUR-DOMAIN.com">admin@YOUR-DOMAIN.com</a>
+        </p>
+
+        <p class="footer-social">
+          <a href="https://wa.me/234XXXXXXXXXX">WhatsApp</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://instagram.com/enoatechnicalservices">Instagram</a>
+        </p>
+      </div>
+    </nav>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year">2026</span> ENOA Technical Services Ltd. All rights reserved.</p>
+    <p class="footer-legal">
+      <a href="#">Privacy Policy</a>
+      <span aria-hidden="true">·</span>
+      <a href="#">Terms of Service</a>
+    </p>
+  </div>
+</footer>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
